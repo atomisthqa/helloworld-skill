@@ -9,7 +9,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "lib": ["DOM"],
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,

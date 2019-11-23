@@ -20,15 +20,12 @@
     "automation",
     "sdm"
   ],
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "node_modules/@atomist/sdm-function-gcp/lib/function.js",
   "dependencies": {
-    "@atomist/automation-client": "1.8.0-master.20191107225525",
-    "@atomist/sdm": "1.8.0-dynamic-goals.20191108140247",
-    "@atomist/sdm-core": "1.8.0-dynamic-goals.20191108152504"
+    "@atomist/sdm-function-gcp": "0.1.0-master.20191123221914"
   },
   "devDependencies": {
-    "@atomist/sdm-local": "1.2.2-master.20191011215150",
+    "@google-cloud/functions-framework": "^1.3.2",
     "@types/mocha": "^5.2.7",
     "@types/power-assert": "^1.5.0",
     "espower-typescript": "^9.0.2",
@@ -37,9 +34,9 @@
     "power-assert": "^1.6.1",
     "rimraf": "^3.0.0",
     "supervisor": "^0.12.0",
-    "ts-node": "^8.4.1",
+    "ts-node": "^8.5.2",
     "tslint": "^5.20.1",
-    "typedoc": "^0.15.0",
+    "typedoc": "^0.15.2",
     "typescript": "^3.7.2"
   },
   "directories": {
@@ -62,7 +59,7 @@
     "gql:gen": "atm-gql-gen",
     "lint": "tslint --config tslint.json --format verbose --project .",
     "lint:fix": "npm run lint -- --fix",
-    "start": "atm-start",
+    "start": "functions-framework --target=sdm --signature-type=event",
     "test": "mocha --require espower-typescript/guess \"test/**/*.test.ts\"",
     "test:one": "mocha --require espower-typescript/guess \"test/**/${TEST:-*.test.ts}\"",
     "typedoc": "npm run doc"
