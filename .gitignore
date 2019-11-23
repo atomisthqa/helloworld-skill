@@ -7,7 +7,6 @@
 node_modules/
 *.d.ts
 *.d.ts.map
-*.js
 *.js.map
 *.log
 *.txt
