@@ -1,6 +1,6 @@
 const automation_client_1 = require("@atomist/automation-client");
 
-exports.HelloIssue = () => ({
+exports.Issue = () => ({
     subscription: automation_client_1.GraphQL.subscription("Issue"),
     listener: async (e, ctx) => {
         const issue = e.data.Issue[0];
