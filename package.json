@@ -22,7 +22,10 @@
   ],
   "main": "node_modules/@atomist/sdm-function-gcp/lib/function.js",
   "dependencies": {
-    "@atomist/sdm-function-gcp": "0.1.0-master.20191123221914"
+    "@atomist/automation-client": "1.8.0-dynamic-goals.20191123160218",
+    "@atomist/sdm": "1.8.0-dynamic-goals.20191120223639",
+    "@atomist/sdm-core": "1.8.0-dynamic-goals.20191124174706",
+    "@atomist/sdm-function-gcp": "0.1.0-master.20191124184150"
   },
   "devDependencies": {
     "@google-cloud/functions-framework": "^1.3.2",

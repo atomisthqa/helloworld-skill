@@ -1,0 +1,10 @@
+subscription Issue {
+    Issue {
+        number
+        title
+        repo {
+            owner
+            name
+        }
+    }
+}
