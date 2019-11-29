@@ -1,7 +1,7 @@
 catalog:
   name: '@atomist/helloworld-item'
   author: Atomist
-  description: 'Atomist catalog item to say hello world'
+  description: 'Atomist catalog item to demo a simple command and event handler'
   category:
   - command
   - event
