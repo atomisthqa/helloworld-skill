@@ -1,5 +1,5 @@
 catalog:
-  name: '@atomist/helloworld'
+  name: '@atomist/helloworld-item'
   author: Atomist
   description: 'Atomist catalog item to say hello world'
   category:
