@@ -4,6 +4,7 @@ catalog:
   description: 'Atomist catalog item to say hello world'
   category:
   - command
+  - event
   license: Apache-2.0
   homepage: 'https://github.com/atomisthq/hellworld-command'
   repository: 'https://github.com/atomist/hellworld-command.git'
