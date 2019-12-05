@@ -1,5 +1,6 @@
-catalog:
+item:
   name: '@atomist/helloworld-item'
+  version: '0.1.0'
   author: Atomist
   description: 'Atomist catalog item to demo a simple command and event handler'
   category:
