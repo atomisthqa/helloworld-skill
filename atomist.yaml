@@ -1,12 +1,12 @@
-item:
+skill:
   name: '@atomist/helloworld-item'
   version: '0.1.0'
   author: Atomist
-  description: 'Atomist catalog item to demo a simple command and event handler'
+  description: 'Atomist catalog skill to demostrate a simple command and event handler'
   category:
-  - command
-  - event
+  - CHAT
+  - PRODUCTIVITY
   license: Apache-2.0
-  homepage: 'https://github.com/atomisthq/hellworld-command'
-  repository: 'https://github.com/atomist/hellworld-command.git'
+  homepage: 'https://github.com/atomisthq/hellworld-skill'
+  repository: 'https://github.com/atomist/hellworld-skill.git'
   icon: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/npm-512.png'
