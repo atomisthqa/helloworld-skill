@@ -16,5 +16,5 @@ skill:
 commands:
   - name: HelloWorld
     pattern: ^hello world.*$
-    description: Command to demonstrate the usage of a command handler with promptFor
+    description: Command to demonstrate the usage of a command handler
 
