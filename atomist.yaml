@@ -10,7 +10,7 @@ skill:
   homepage: 'https://github.com/atomisthq/hellworld-skill'
   repository: 'https://github.com/atomist/hellworld-skill.git'
   icon: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/npm-512.png'
-
+ 
 --- 
  
 commands:
