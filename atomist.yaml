@@ -12,8 +12,6 @@ skill:
  
   package:
     use: '@atomist/catalog-sdm-skill/prepare-sdm' 
-    parameters:
-      foo: bar 
           
 commands:
   # Register a hello world command
