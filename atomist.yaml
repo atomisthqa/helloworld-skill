@@ -16,5 +16,5 @@ skill:
 commands:
   # Register a hello world command
   - name: HelloWorld
-    pattern: ^hello world.*$
+    pattern: ^hello world.*$ 
     description: Command to demonstrate the usage of a command handler 
