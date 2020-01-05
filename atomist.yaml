@@ -15,7 +15,7 @@ skill:
     use: '@atomist/sdm-package-skill'
     parameters: 
       foo: bar
----  
+---   
   
 commands:
   - name: HelloWorld
