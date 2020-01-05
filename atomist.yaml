@@ -12,7 +12,7 @@ skill:
  
   package:
     use: '@atomist/catalog-sdm/prepare-sdm'
-    parameters: 
+    parameters:  
       foo: bar
         
 commands:
