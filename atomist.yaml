@@ -4,7 +4,7 @@ skill:
   author: Atomist
   description: 'Atomist catalog skill to demostrate a simple command and event handler'
   category:
-  - chat 
+  - chat  
   license: Apache-2.0
   homepage: 'https://github.com/atomisthq/hellworld-skill'
   repository: 'https://github.com/atomist/hellworld-skill.git'
