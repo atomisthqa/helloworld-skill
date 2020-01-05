@@ -11,7 +11,7 @@ skill:
   icon: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/npm-512.png'
  
   package:
-    use: '@atomist/sdm-package-skill'
+    use: '@atomist/catalog-sdm/prepareSdm'
     parameters: 
       foo: bar
         
