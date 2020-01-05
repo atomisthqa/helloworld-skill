@@ -1,6 +1,6 @@
 skill:
   name: '@atomist/helloworld-item'
-  version: '0.1.0'
+  version: '0.1.0' 
   author: Atomist
   description: 'Atomist catalog skill to demostrate a simple command and event handler'
   category:
