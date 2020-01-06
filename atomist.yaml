@@ -12,7 +12,7 @@ skill:
     
   package:
     use: '@atomist/package-sdm-skill'  
-            
+             
 commands:
   # Register a hello world command
   - name: HelloWorld
