@@ -1,5 +1,5 @@
 skill:
-  name: '@atomist/helloworld-item'
+  name: '@atomist/helloworld-skill'
   version: '0.1.0' 
   author: Atomist 
   description: 'Atomist catalog skill to demostrate a simple command and event handler'
