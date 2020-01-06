@@ -1,10 +1,10 @@
-const automation_client_1 = require("@atomist/automation-client");
-
+const graphQL_1 = require("@atomist/automation-client/lib/graph/graphQL");
+const HandlerResult_1 = require("@atomist/automation-client/lib/HandlerResult");
 exports.Issue = () => ({
-    subscription: automation_client_1.GraphQL.subscription("Issue"),
+    subscription: graphQL_1.subscription("Issue"),
     listener: async (e, ctx) => {
         const issue = e.data.Issue[0];
         await ctx.messageClient.addressUsers(`New issue ${issue.number}: ${issue.title}`, "cd");
-        return automation_client_1.Success;
+        return HandlerResult_1.Success;
     },
 });
