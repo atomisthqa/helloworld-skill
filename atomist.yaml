@@ -13,7 +13,13 @@ skill:
   package:
     #use: '@atomist/package-sdm-skill'  
     use: '@atomist/package-repository-skill'  
-               
+  
+  runtime:
+    name: nodejs10
+    entry_point: sdm
+    memory: 256
+    timeout: 60
+  
 commands:
   # Register a hello world command
   - name: HelloWorld
