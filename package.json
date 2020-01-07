@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@atomist/automation-client": "2.0.0-remove-index.20200107112456",
+    "@atomist/sdm": "2.0.0-remove-index.20200107085713",
+    "@atomist/sdm-core": "2.0.0-remove-index.20200107101721",
+    "@atomist/sdm-function-gcp": "0.1.0-master.20200107164650",
+    "@atomist/sdm-pack-gcp": "0.1.0-remove-index.20200107172000",
+    "@atomist/yaml-updater": "^1.0.2",
+    "fs-extra": "^8.1.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15"
+  },
+  "main": "node_modules/@atomist/sdm-function-gcp/lib/function.js",
+  "name": "@atomist/helloworld-skill",
+  "version": "0.1.0",
+  "author": "Atomist",
+  "description": "Atomist catalog skill to demostrate a simple command and event handler",
+  "category": [
+    "chat"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/atomisthq/hellworld-skill",
+  "repository": "https://github.com/atomist/hellworld-skill.git",
+  "icon": "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/npm-512.png",
+  "package": {
+    "use": "@atomist/package-sdm-skill"
+  }
+}
