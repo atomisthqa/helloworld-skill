@@ -12,7 +12,6 @@
   },
   "main": "node_modules/@atomist/sdm-function-gcp/lib/function.js",
   "name": "@atomist/helloworld-skill",
-  "version": "0.1.0",
   "author": "Atomist",
   "description": "Atomist catalog skill to demostrate a simple command and event handler",
 }
